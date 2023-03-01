@@ -51,7 +51,7 @@ body {
 
 .header-text {
   font-size: 18px;
-  color: white;
+  color: rgb(243, 230, 46);
   margin-top: 10px;
   font-family: "Press Start 2P", cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -60,8 +60,15 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 20px;
+}
+
+.newGridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 #buttonStyle {
@@ -73,7 +80,7 @@ body {
   padding: 12px 24px;
   border: 0;
   color: #000021;
-  background: #e6e91d;
+  background: #4ad7f0;
   box-shadow: 10px 5px;
   font-size: 18px;
   font-family: "Press Start 2P", cursive, Verdana, Geneva, Tahoma, sans-serif;

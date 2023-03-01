@@ -12,6 +12,7 @@
     align-items: center;
     flex-direction: column;
     background-color: rgb(154, 241, 143);
+    text-align: center;
   }
 
 .container {
@@ -25,7 +26,7 @@
     height: 34px;
     width: 34px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgb(182, 181, 181);
   }
   
   .container>div:nth-child(17n + 1) {

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -41,4 +42,12 @@
     background-color: #f14d4f;
     margin: 22rem;
     border-radius: 3%;
+}
+
+
+.header-text {
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  font-family: 'Press Start 2P', cursive, Verdana, Geneva, Tahoma, sans-serif;
 }

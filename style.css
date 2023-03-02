@@ -67,9 +67,8 @@ body {
 .selectGridContainer {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 20px;
-  border: 2px solid hotpink;
 }
 
 .buttonStyle {

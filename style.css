@@ -64,14 +64,15 @@ body {
   margin: 20px;
 }
 
-.newGridContainer {
+.selectGridContainer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 20px;
+  border: 2px solid hotpink;
 }
 
-#buttonStyle {
+.buttonStyle {
   display: flex;
   outline: none;
   cursor: pointer;
@@ -86,7 +87,7 @@ body {
   font-family: "Press Start 2P", cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#buttonStyle:hover {
+.buttonStyle:hover {
   transition: all .1s ease;
   box-shadow: 0 0 0 0 #fff, 0 0 0 3px #000000;
 }

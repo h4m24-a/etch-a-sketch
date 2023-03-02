@@ -1,11 +1,11 @@
 const containerDiv = document.querySelector('.container');
 
 // Buttons
-const selectBtn = document.getElementById('selectBtn')
-const eraserBtn = document.getElementById('eraserBtn')
-const rainbowBtn = document.getElementById('rainbowBtn')
-const clearBtn = document.getElementById('clearBtn')
-const colourBtn = document.getElementById('colourBtn')
+const selectBtn = document.getElementById('select')
+const eraserBtn = document.getElementById('eraser')
+const rainbowBtn = document.getElementById('rainbow')
+const clearBtn = document.getElementById('clear')
+const colourBtn = document.getElementById('colour')
 
 createGrid();
 

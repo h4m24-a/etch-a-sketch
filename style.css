@@ -36,7 +36,7 @@ body {
   background-color: #f14d4f;
   border-radius: 3%;
   text-align: center;
-  margin: 3rem;
+  margin: 2rem;
   padding: 0 10rem 0 10rem;
 }
 
@@ -87,12 +87,12 @@ body {
 
 #quantity {
   background: #4ad7f0;
-  box-shadow: 10px 5px;
+  cursor: pointer;
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 9px;
   text-align: center;
-  box-shadow: none;
+  width: 30%;
 }
 
 
@@ -122,4 +122,5 @@ body {
 .value {
   margin-top: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }

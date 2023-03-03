@@ -71,11 +71,19 @@ createGrid();
 
 
 // Clear Button
-clearBtn.addEventListener("click", function () {
-  container.innerHTML = "";
-  userInput.value = "16";
-  screenVal.innerHTML = '16';
-  container.style.setProperty("grid-template-columns", `repeat(16, 2fr)`);
-  container.style.setProperty("grid-template-rows", `repeat(16, 2fr)`);
-  createGrid();
-});
+clearBtn.addEventListener('click', clearGrid);
+function clearGrid() {
+  container.childNodes.forEach((div) =>
+    div.style.backgroundColor = "white"
+  )}
+
+// clearBtn.addEventListener("click", function () {
+//   container.innerHTML = "";
+//   userInput.value = "16";
+//   screenVal.innerHTML = '16';
+//   container.style.setProperty("grid-template-columns", `repeat(16, 2fr)`);
+//   container.style.setProperty("grid-template-rows", `repeat(16, 2fr)`);
+//   createGrid();
+// });
+
+

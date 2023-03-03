@@ -13,7 +13,7 @@ const eraserBtn = document.getElementById("eraser");
 createGrid = () => {
   for (let i = 0; i < 256; i++) {
     const div = document.createElement("div");
-    div.classList.add("smallsquares");
+    div.classList.add("smallSquares");
     container.appendChild(div);
     div.addEventListener('mouseover', colorSquare);
       div.style.backgroundColor = '';
@@ -55,6 +55,13 @@ function changeColor(choice){
 };
 
 
+// Slider for Grid
+const screenVal = document.querySelector('.value');
+quantity.addEventListener('input', function(){
+    let val = userInput.value;
+    screenVal.textContent = val;
+})
+
 
 userInput.addEventListener("change", updateGrid);
 
@@ -67,6 +74,7 @@ createGrid();
 clearBtn.addEventListener("click", function () {
   container.innerHTML = "";
   userInput.value = "";
+  screenVal.innerHTML = '16';
   container.style.setProperty("grid-template-columns", `repeat(16, 2fr)`);
   container.style.setProperty("grid-template-rows", `repeat(16, 2fr)`);
   createGrid();

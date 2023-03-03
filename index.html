@@ -13,14 +13,15 @@
         <h1>Etch a Sketch!</h1>
       </header>
       <div class="selectGridContainer">
-        <button id="selectBtn" class="buttonStyle">Select Grid</button>
+        <label id="selectBtn" class="buttonStyle" for="quantity">Select Grid Size</label>
+        <input type="number" id="quantity"/>
       </div>
       <div class="container"></div>
       <div class="button">
         <button id="clear" class="buttonStyle">CLEAR</button>
-        <button id="rainbow" class="buttonStyle">RAINBOW</button>
-        <button id="colour" class="buttonStyle">COLOUR</button>
-        <button id="eraser" class="buttonStyle">ERASER</button>
+        <button onclick="changeColor('rainbow')" id="rainbow" class="buttonStyle">RAINBOW</button>
+        <button onclick="changeColor('black')" id="black" class="buttonStyle">BLACK</button>
+        <button onclick="changeColor('white')" id="eraser" class="buttonStyle">ERASER</button>
       </div>
     </div>
     <script src="app.js"></script>

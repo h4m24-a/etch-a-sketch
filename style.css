@@ -27,13 +27,9 @@ body {
 }
 
 .container > div {
-  border: 1px solid rgb(102, 101, 101);
+  border: 1px solid rgb(160, 158, 158);
 }
 
-.smallSquares {
-  background-color: red;
-  border: 1px solid white;
-}
 
 .content {
   border: 5px solid black;
@@ -96,6 +92,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 9px;
   text-align: center;
+  box-shadow: none;
 }
 
 
@@ -109,4 +106,20 @@ body {
 
 #clear {
   background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+}
+
+
+#black {
+  background-image: linear-gradient(to right top, #edeeeb, #c5c6c3, #9fa09c, #7a7c76, #575953);
+}
+
+
+#selectBtn {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,172,255,1) 0%, rgba(82,119,247,1) 100%);
+
+}
+
+.value {
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

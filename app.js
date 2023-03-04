@@ -36,9 +36,17 @@ updateGrid = () => {
   }
 };
 
+
+// Color is allowed when the left mouse button is being clicked.
+let isMouseDown;
+container.addEventListener('mousedown', () => isMouseDown = true);
+container.addEventListener('mouseup', () => isMouseDown = false);
+
+
 // Colours
 function colorSquare() {
-  if (color === "color") {
+  if(!isMouseDown) return;
+  else if (color === "color") {
     let newColor = document.getElementById("color").value;
     this.style.backgroundColor = newColor;
   } else if (color === "rainbow") {

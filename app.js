@@ -63,7 +63,7 @@ function changeColor(choice) {
 // Slider for Grid
 quantity.addEventListener("input", function () {
   let val = userInput.value;
-  screenVal.textContent = val;
+  screenVal.textContent = `${val} x ${val}`;;
 });
 
 userInput.addEventListener("change", updateGrid);

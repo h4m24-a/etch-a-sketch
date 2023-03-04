@@ -24,6 +24,7 @@ body {
   height: 550px;
   width: 550px;
   background-color: #fff;
+  cursor: crosshair;
 }
 
 .container > div {

@@ -8,26 +8,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <div class="content">
       <header class="header-text">
         <h1>Etch a Sketch!</h1>
       </header>
+
       <div class="selectGridContainer">
         <label id="selectBtn" class="buttonStyle" for="quantity">Select Grid Size</label>
         <input class="slider" type="range" min="1" max="100" value="16" type="number" id="quantity"/>
         <p class="value">16</p>
       </div>
+
       <div class="container"></div>
+
       <div class="button">
-        <div class="colorSelector">
-          <input onclick="changeColor('color')" type="color" id="color">
-          <p>Choose a Color!</p>
-      </div>
         <button id="clear" class="buttonStyle">CLEAR</button>
         <button onclick="changeColor('rainbow')" id="rainbow" class="buttonStyle">RAINBOW</button>
         <button onclick="changeColor('black')" id="black" class="buttonStyle">BLACK</button>
         <button onclick="changeColor('white')" id="eraser" class="buttonStyle">ERASER</button>
+
+        <div class="colorSelector">
+          <input onclick="changeColor('color')" type="color" id="color">
+          <p>Select Color!</p>
+        </div>
       </div>
+
     </div>
     <script src="app.js"></script>
   </body>
